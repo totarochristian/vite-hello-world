@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  
+  <AppTitle></AppTitle>
 </template>
 
 <style scoped>
