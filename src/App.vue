@@ -6,6 +6,6 @@
   import AppTitle from "./components/AppTitle.vue"
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 
 </style>
