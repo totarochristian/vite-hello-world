@@ -27,8 +27,9 @@
 <style lang="css" scoped>
   #heroDiv{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: relative;
+    overflow: hidden;
   }
   #heroDiv>img{
     width: 100%;
