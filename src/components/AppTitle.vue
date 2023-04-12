@@ -1,5 +1,7 @@
 <template>
-  <h1>{{ title }}</h1>
+  <div id="titleDiv">
+    <h1>{{ title }}</h1>
+  </div>
 </template>
 
 <script>
