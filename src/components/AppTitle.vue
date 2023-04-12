@@ -1,6 +1,6 @@
 <template>
   <div>
-
+    <h1>{{ title }}</h1>
   </div>
 </template>
 
@@ -9,11 +9,11 @@
     name: "AppTitle",
     data(){
       return{
-
+        title: "La mia prima app con Vite!"
       }
     },
     methods: {
-      
+
     }
   }
 </script>
