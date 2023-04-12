@@ -1,5 +1,5 @@
 <template>
-  <div id="hero">
+  <div id="heroDiv">
     <AppTitle></AppTitle>
     <img src="../assets/images/Super-hero-head-sm.jpg" alt="Hero">
   </div>
@@ -24,6 +24,16 @@
   }
 </script>
 
-<style lang="scss" scoped>
-
+<style lang="css" scoped>
+  #heroDiv{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  #heroDiv>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(80%);
+  }
 </style>
